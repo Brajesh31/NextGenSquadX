@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    border: 10px;
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/background.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+header{
+    top: 80%;
+    left: 40%;
+    width: 100%;
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    opacity: 80%;
+}
+
+nav li{
+    display: inline-block;
+    list-style: none;
+    padding: 0px 20px;
+}
+
+a,button{
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+
+}
+
+nav li a:hover{
+    color: aqua;
+    transition: all 0.4s ease 0s;
+}
+
+
+.content{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 120px;
+    color: #fff;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 30px;
+}
+
+.h1{
+    font-size: 70px;
+}
+
+.arrow{
+    position: absolute;
+    top: 90%;
+    left: 25%;
+}
+
+.row{
+    display:flex;
+    height: 88%;
+    align-items: center;
+
+}
+
+.col{
+    flex-basis: 50%;
+}
+
+h1{
+    color: #fff;
+    font-size: 30px; 
+}
+
+.game{
+    position:absolute;
+    top: 120%;
+    left: 30%;
+    background-position: center;
+}
+
+.card1{
+    position: absolute;
+    font-size: 20px;
+    color: rgb(234, 234, 243);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    top: 170%;
+    width: 100px;
+    height: 130px;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin-left: 20px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5;
+    left: 30%
+
+}
+
+.card2{
+    position: absolute;
+    font-size: 20px;
+    color: rgb(234, 234, 243);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    top: 170%;
+    width: 100px;
+    height: 130px;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin-left: 20px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5;
+    left: 50%
+
+}
+
+.card1:hover{
+    transform: translateY(-15px);
+}
+
+.card2:hover{
+    transform: translateY(-15px);
+}
+
+.arrow1{
+    position: absolute;
+    top: 245%;
+    left: 13%;
+}
+
+.about{
+    top: 180%;
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    transform: translateY(-50%);
+    padding: 30px;
+    color: rgb(211, 228, 229);
+}
